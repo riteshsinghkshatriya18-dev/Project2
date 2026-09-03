@@ -1,1 +1,62 @@
 C:\Users\rites\OneDrive\Desktop\Web develpment\html\.vscode\class.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+             border-collapse:collapse ;
+            text-align: center;
+        }
+        td,th{
+            border: 1px solid black;
+            padding :10px;
+        }
+    </style>
+    <!-- <style>
+        .red{
+            background-color:coral ;
+        }
+        #green{
+            background-color: darkgreen;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <p class="red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, harum?</p>
+
+    <p id="green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, nam!</p>
+    <h1 class="red">Test 1</h1>
+    <h3 >Test 2</h3> -->
+
+    <table style="width: 100%">
+        
+            <tr>
+                <th>Title</th>
+                <th>Video</th>
+                
+            </tr>
+            
+           </tr>
+           <td>Class id and iframe</td>
+                <td>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/I7LrS1z_WNA?si=xQo0u0RZSbrHDCng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+            </tr>
+        <tr>
+            <td>Head Tag in HTML</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/-wMbf3qVNsc?si=K05QLAMD84VenmJN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td> HTML Semantics</td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/DSRMCZwM3YE?si=szPXVfWTvXIlI6iT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>HTML forms and forms attributes</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/LhWQlBdqaeM?si=Ko60v_su6BPQ8GFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+</body>
+</html>
